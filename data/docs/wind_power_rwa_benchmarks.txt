@@ -1,0 +1,215 @@
+===========================================
+ONSHORE WIND POWER RWA BENCHMARKS
+Complete Reference for 30-200MW Wind Farm Tokenization
+===========================================
+
+ASSET CLASS: Onshore Wind Farms (utility-scale)
+TARGET IRR: 10-13% (higher than solar due to higher capacity factor but more complex power curves)
+INVESTMENT NARRATIVE: "High-capacity factor renewable energy with 24/7 generation and predictable long-term cash flows"
+
+Last Updated: 2025-10
+Industry References: Vestas, Siemens Gamesa, Goldwind, NextEra Energy, Orsted
+
+================================================================================
+MODULE 01: ASSET PERFORMANCE BENCHMARKS  
+================================================================================
+
+CAPEX BENCHMARKS (100MW ONSHORE WIND FARM)
+------------------------------------------
+Total Project Cost:          $1.2M - $1.8M per MW ($120M - $180M for 100MW)
+- Wind Turbines (delivered): 65-75% of total ($78M - $135M)
+- Balance of Plant:          15-20% ($18M - $36M)
+  * Foundation & civil works
+  * Electrical infrastructure (substation, cables)
+  * Access roads & crane pads  
+- Grid Connection:           5-10% ($6M - $18M)
+- Development & Soft Costs:  8-12% ($10M - $22M)
+- Contingency:               5-8% ($6M - $14M)
+
+TURBINE SPECIFICATIONS (3MW class, typical for China/Asia)
+- Turbine Model: Goldwind GW155/3000, Vestas V136-3.45MW, or similar
+- Hub Height: 90-120m
+- Rotor Diameter: 136-156m
+- Rated Capacity: 3.0-3.6MW per turbine
+- Number of Turbines (100MW): 30-35 turbines
+- Design Life: 25 years (vs solar's 30+)
+
+OPEX & PERFORMANCE
+- Annual O&M: $40,000 - $60,000 per MW per year (2-3x solar)
+- Capacity Factor: 25-35% (China inland), 35-45% (coastal), 45-55% (offshore - not covered)
+- Availability: 95-98% (turbine operational time)
+- Annual Degradation: 0.5-1.0% (slightly worse than solar panels)
+
+ENERGY GENERATION (100MW Wind Farm, 30% Capacity Factor)
+- Annual Output: 262,800 MWh (100MW × 8,760 hours × 30%)
+- Monthly Variation: High in winter (40-50% CF), low in summer (15-25% CF)
+- PPA Price: $0.045-$0.065/kWh (China FiT), $0.05-$0.09/kWh (Southeast Asia)
+- Annual Revenue: $11.8M - $23.6M (at $0.045-$0.09/kWh)
+
+
+================================================================================
+MODULE 02: FINANCIAL MODEL
+================================================================================
+
+CAPITAL STRUCTURE (100MW, $150M Total Cost)
+- Senior Debt: $105M (70% LTV)
+- Equity/Token: $45M (30%)
+- Debt Terms: 5.5-6.5% interest, 15-18 year tenor
+- DSCR: Minimum 1.30x
+
+5-YEAR CASH FLOW (Capacity Factor 30%, $0.06/kWh PPA)
+Year  Generation  Revenue  O&M   NOI    Debt Service  NCF
+Y1    262,800     $15.8M   $5M   $10.8M  $8.2M        $2.6M
+Y2    260,500     $15.6M   $5.1M $10.5M  $8.1M        $2.4M
+Y3    258,200     $15.5M   $5.2M $10.3M  $8.0M        $2.3M
+Y4    255,900     $15.4M   $5.3M $10.1M  $7.9M        $2.2M
+Y5    253,600     $15.2M   $5.4M $9.8M   $7.8M        $2.0M
+
+RETURNS ANALYSIS
+- Project Levered IRR: 11.5%
+- Equity IRR: 15.2%
+- Token Holder Yield (Avg Y1-5): 5.0%
+- Payback Period: 9.5 years
+
+
+================================================================================
+MODULE 03: SPV STRUCTURE & CONTRACTS
+================================================================================
+
+CORPORATE STRUCTURE
+```
+Token Holders ($45M)
+        |
+        v
+  [Cayman SPV]
+        |
+        v
+  [China WFOE - Wind Farm OpCo]
+  (Project Owner & Operator)
+        |
+        v
+  [State Grid / Regional Power Grid]
+  (Offtaker under 20-year PPA)
+```
+
+KEY CONTRACTS
+1. Turbine Supply Agreement (Vestas/Goldwind) - $95M
+2. EPC Contract - Turnkey construction
+3. PPA (20-year) - with State Grid or provincial grid
+4. O&M Agreement - typically with turbine OEM
+5. Land Lease - 25-30 year lease with local government
+6. Grid Connection Agreement
+7. Insurance: Property, business interruption, turbine warranty
+
+
+================================================================================
+MODULE 04: TOKEN STRUCTURE
+================================================================================
+
+2-TRANCHE STRUCTURE (Similar to Solar)
+- Tranche A (Senior): 70% ($31.5M), 5.5% fixed yield
+- Tranche B (Junior): 30% ($13.5M), 8-12% variable yield
+
+CASH FLOW WATERFALL
+```
+Revenue → O&M → Debt Service → Reserves → Senior Tokens → Junior Tokens
+```
+
+
+================================================================================
+MODULE 05: REGULATORY (CHINA-SPECIFIC)
+================================================================================
+
+CHINA MARKET
+- Development Approval: NDRC (National Development and Reform Commission)
+- Grid Connection: State Grid approval required (6-12 months)
+- Environmental Impact Assessment (EIA): Required for all >50MW projects
+- Land Use: Collective land lease or state-owned land transfer
+- FiT Policy: Feed-in-Tariff guaranteed for 20 years (now transitioning to competitive bidding)
+
+CROSS-BORDER TOKEN ISSUANCE
+- Use Cayman SPV for token issuance (avoid direct China securities regulation)
+- WFOE (Wholly Foreign-Owned Enterprise) owns wind farm
+- Profit repatriation via dividends (subject to 10% withholding tax)
+- Hong Kong SFC license required if selling tokens to HK investors
+
+
+================================================================================
+MODULE 06: COMPARABLE DEALS
+================================================================================
+
+CASE 1: Longyuan Power (SEHK: 0916) - China's Largest Wind Operator
+- Installed Capacity: 30+ GW wind power
+- Listed: HKEx since 2009
+- Dividend Yield: 3.5-4.5%
+- Lesson: Publicly traded wind power companies trade at lower yields than private tokens
+
+CASE 2: NextEra Energy (NYSE: NEE) - US Wind/Solar Giant
+- Wind Capacity: 14 GW (US onshore)
+- Structure: YieldCo model (NextEra Energy Partners)
+- Returns: 6-8% distribution yield
+- Lesson: YieldCo structure precedent for tokenization
+
+CASE 3: Beijing Jingneng Clean Energy (SEHK: 0579)
+- Mixed portfolio: Wind + solar + hydro
+- Hong Kong listed
+- Lesson: Diversified renewable portfolio reduces single-technology risk
+
+
+================================================================================
+MODULE 07: RISKS & MITIGATION
+================================================================================
+
+WIND-SPECIFIC RISKS
+1. **Wind Resource Variability** (HIGH IMPACT)
+   - Mitigation: P50/P75/P90 wind studies, 3+ years of wind data, insurance
+   
+2. **Turbine Failure** (MEDIUM IMPACT)
+   - Mitigation: OEM warranty (5-10 years), spare parts inventory, O&M contract with manufacturer
+
+3. **Grid Curtailment** (CHINA-SPECIFIC, HIGH IMPACT)
+   - Risk: Grid operator curtails wind power during low-demand periods
+   - Mitigation: Site selection in low-curtailment provinces (Jiangsu, Hebei better than Gansu, Xinjiang)
+   - Compensation: Some provinces offer curtailment compensation
+
+4. **Blade Damage** (typhoons, icing)
+   - Mitigation: Insurance, blade de-icing systems, typhoon cut-out controls
+
+5. **PPA Counterparty Risk**
+   - Low risk in China (State Grid AAA-rated)
+   - Medium risk in Southeast Asia (depends on utility creditworthiness)
+
+
+================================================================================
+MODULE 08: INVESTMENT NARRATIVE
+================================================================================
+
+"24/7 CLEAN ENERGY - Higher Capacity Factor, Predictable Cash Flows"
+
+INVESTMENT HIGHLIGHTS
+1. ✅ **Higher Capacity Factor**: 30-45% vs solar's 17-22% → 50-100% more energy per MW installed
+2. ✅ **24/7 Generation**: Wind blows day and night (complements solar's daytime-only generation)
+3. ✅ **Proven Technology**: Turbines have 25-year track record (Vestas since 1979)
+4. ✅ **China Policy Support**: 1200GW wind target by 2030 (currently 400GW installed)
+5. ✅ **Defensive Revenues**: 20-year PPA with State Grid (government-backed offtaker)
+
+RISKS
+1. ⚠️ **Higher Complexity**: More moving parts than solar → higher O&M costs
+2. ⚠️ **Weather Dependent**: Inter-annual wind variation ±15% (vs solar ±8%)
+3. ⚠️ **Grid Curtailment**: China inland provinces face 5-15% curtailment rates
+4. ⚠️ **Currency Risk**: China projects generate RMB, tokens may be USD/HKD
+
+TARGET INVESTORS
+- Renewable energy funds seeking higher yield than solar
+- Institutional investors familiar with wind power risk profile
+- ESG mandates (wind + solar portfolio diversification)
+
+COMPARABLE YIELD
+- Solar RWA Tokens: 6-9%
+- Wind RWA Tokens: 7-10% (50-100bps premium for higher complexity/risk)
+- Data Center Tokens: 7.5%
+- Warehouse REIT Tokens: 4.5-5.5%
+
+END OF WIND POWER RWA BENCHMARK DOCUMENT
+================================================================================
+
